@@ -78,7 +78,10 @@ dist
 
 # Gatsby files
 .cache/
-public
+# public - Allow our public directory
+
+# Build outputs that should be ignored in public/
+public/build/
 
 # Storybook build outputs
 .out
