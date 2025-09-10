@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poketto - Your Pokemon Companion</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/icons/pokeball.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>🎮 Poketto</h1>
+                <p>Your Pokemon Companion</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pokedex">Pokedex</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h2>Welcome to Poketto!</h2>
+                <p>Discover, explore, and learn about Pokemon in this interactive web application.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="startExploring()">Start Exploring</button>
+                    <button class="btn-secondary" onclick="viewPokedex()">View Pokedex</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <h3>Features</h3>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📖</div>
+                    <h4>Complete Pokedex</h4>
+                    <p>Browse through detailed information about all Pokemon species.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h4>Advanced Search</h4>
+                    <p>Find Pokemon by name, type, generation, or special abilities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h4>Stats & Details</h4>
+                    <p>View comprehensive stats, evolution chains, and movesets.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h4>Interactive Experience</h4>
+                    <p>Engaging interface with smooth animations and responsive design.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="search" class="search-section">
+            <h3>Search Pokemon</h3>
+            <div class="search-container">
+                <input type="text" id="pokemon-search" placeholder="Enter Pokemon name or ID..." />
+                <button onclick="searchPokemon()">Search</button>
+            </div>
+            <div id="search-results" class="search-results"></div>
+        </section>
+
+        <section id="status" class="status-section">
+            <h3>API Status</h3>
+            <div id="api-status" class="status-indicator">
+                <span class="status-dot"></span>
+                <span class="status-text">Checking...</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Poketto. Created with ❤️ for Pokemon fans.</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy</a>
+                <a href="#terms">Terms</a>
+                <a href="#contact">Contact</a>
+                <a href="https://github.com/Asnan07/Poketto" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/bundle.js"></script>
+</body>
+</html>
