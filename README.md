@@ -30,7 +30,7 @@ This project demonstrates how client-server communication works in Java using so
 4.	Run the Client.java file(s) to connect and start chatting.
 
 ##  🖼️ Screenshots
-![App Screenshot](src/icons/Screenshot.PNG)
+![App Screenshot](src/icons/Screenshot.JPG)
 ## 📚 Learning Goals
   • Understanding socket programming
 	
